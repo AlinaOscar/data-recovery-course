@@ -1,0 +1,16 @@
+title: Data Recovery
+description: How to recover your data from your Computer or iPhone?
+template:
+  repo: data-recovery-template
+  name: data-recovery
+before:
+  - type: createIssue
+    title: Welcome!
+    body: new-issue.md
+steps:
+  - title: First step
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
